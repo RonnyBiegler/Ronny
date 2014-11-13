@@ -13,7 +13,18 @@ public class Hilfmethoden {
 			}
 			
 					return true;
-					
+									
 	}
 	
+	public int summe (int[] array) {
+		int summe = 0;
+		
+		for (int a:array) 
+			
+		//summe +=a;
+			summe=summe+a;
+		
+		
+		return summe;
+	}		
 }
