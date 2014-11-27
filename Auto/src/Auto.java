@@ -11,8 +11,9 @@ public class Auto {
 			return Farbe;
 		}
 
-		public void setFarbe(String farbe) {
+		public boolean setFarbe(String farbe) {
 			Farbe = farbe;
+			return false;
 		}
 		
 		
