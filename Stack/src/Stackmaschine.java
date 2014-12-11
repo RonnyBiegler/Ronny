@@ -33,7 +33,7 @@ public class Stackmaschine {
 			 temp.push(a*b);
 			 break;
 		 case '.':
-			 System.out.println((char)temp.pop());
+			 System.out.print((char)temp.pop());
 			 break;
 		 case 'w':
 			 System.out.println(temp.pop());
@@ -63,7 +63,7 @@ public class Stackmaschine {
 		 case 'j':
 			 a = temp.pop();
 			 b = temp.pop();
-			 if (b!=0)i=a;
+			 if (b!=0)i=a-1;
 			 break;
 				 
 		 
