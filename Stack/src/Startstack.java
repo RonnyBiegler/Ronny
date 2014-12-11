@@ -15,7 +15,7 @@ public class Startstack {
 		Stackmaschine sm = new Stackmaschine();
 		
 		
-		sm.Stackmaschine("p0000rcp0001-cp0006jdp0001*scp001Ajdw");
+		sm.maschine("p0000rcp0001-cp0006jdp0001*scp001Ajdw");
 		
 		
 	}

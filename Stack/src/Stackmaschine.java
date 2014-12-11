@@ -9,7 +9,7 @@ public class Stackmaschine {
 	
 	
 	
- public void Stackmaschine(String eing){
+ public void maschine(String eing){
 	 
 	 int a = 0;
 	 int b = 0;
