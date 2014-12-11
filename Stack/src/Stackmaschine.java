@@ -41,27 +41,30 @@ public class Stackmaschine {
 		 case 'r':
 			 System.out.println("Bitte die Zeichenfolge eingeben");
 			 temp.push(s.nextInt());
+			 break;
 		 case 'p':
 			 temp.push(Integer.parseInt(eing.substring(i+1,i+5), 16));
 			 i=i+4;
+			 break;
 		 case 'd':
 			 temp.pop();
+			 break;
 		 case 'c':
 			 a = temp.pop();
 			 temp.push(a);
 			 temp.push(a);
+			 break;
 		 case 's':
 			 a = temp.pop();
 			 b = temp.pop();
 			 temp.push(a);
 			 temp.push(b);
+			 break;
 		 case 'j':
 			 a = temp.pop();
 			 b = temp.pop();
-
-			 
 			 if (b!=0)i=a;
-
+			 break;
 				 
 		 
 		 
